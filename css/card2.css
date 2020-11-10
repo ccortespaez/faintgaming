@@ -1,0 +1,48 @@
+
+#columnas-card>.card{
+ background:#081624;
+ color:white;
+}
+#columnas-card>.card>.card-body>button{
+ background: #330777;
+ color:white;
+}
+#columnas-card>.card>.card-footer>a{
+ background: #1c33a4;
+ color:white;
+}
+#columnas-card>.card>.card-footer>.eliminar{
+  visibility: hidden;
+}
+
+#columnass-card>.card{
+ background:#081624;
+ color:white;
+}
+#columnass-card>.card>.card-body>button{
+ background: #330777;
+ color:white;
+}
+#columnass-card>.card>.card-footer>a{
+ background: #1c33a4;
+ color:white;
+}
+#columnass-card>.card>.card-footer>.eliminar{
+  visibility: hidden;
+}
+
+#columnas3-card>.card{
+ background:#081624;
+ color:white;
+}
+#columnas3-card>.card>.card-body>button{
+ background: #330777;
+ color:white;
+}
+#columnas3-card>.card>.card-footer>a{
+ background: #1c33a4;
+ color:white;
+}
+#columnas3-card>.card>.card-footer>.eliminar{
+  visibility: hidden;
+}

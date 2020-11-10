@@ -1,0 +1,51 @@
+
+:root{
+  /* Definir variables en CSS */
+  --color-fondo:url('../img/bg-01.jpg');
+  --color-fondo1: rgba(8, 22, 36, 0.47);
+  --color-fondo2: rgba(28, 51, 164, 0.72) ;
+}
+
+.bg-login{
+   background: var(--color-fondo);
+   background-size:cover;
+}
+.bg-color1{
+  background: var(--color-fondo1);
+}
+.bg-color2{
+  background: var(--color-fondo2);
+}
+
+.img-fluid2{
+width: 40%;
+height: auto;
+margin-left: auto;
+margin-right: auto;
+margin-top:5%;
+}
+
+.texto-superior{
+text-align: center;
+padding-top: 4%;
+
+}
+
+.img-fluid{
+  height: 25px;
+  float:left;
+
+}
+
+.form-group{
+  padding-bottom:9%;
+}
+
+.form-group2{
+  padding-bottom:9%;
+  text-align: center;
+}
+.card{
+margin:0 auto;
+width: 50%;
+}

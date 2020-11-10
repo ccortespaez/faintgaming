@@ -1,0 +1,13 @@
+:root{
+  /* Definir variables en CSS */
+
+  --color-1:rgba(0, 80, 161, 0.63);
+  --color-2:rgba(28, 51, 164, 0.72);
+}
+
+.bg-color-1{
+   background-color: var(--color-1);
+}
+.bg-color-2{
+   background-color: var(--color-2);
+}

@@ -1,0 +1,84 @@
+
+:root{
+  /* Definir variables en CSS */
+  --body:url("../img/bg-mario.jpg");
+  --fondo:url('../img/bg-borial.jpg');
+  --serie:url("../img/bg-serie.jpg");
+  --fondo2:url("../img/nin.jpg");
+  --cardbody:url("../img/star.jpg");
+  --card:url("../img/str.jpg");
+  --color-1:rgba(0, 80, 161, 0.63);
+  --color-2:rgba(28, 51, 164, 0.72);
+  --cardfonts:"Roboto";
+  --cardfonts2:"Roboto";
+}
+
+.img-fluid{
+  height: 25px;
+  float:left;
+
+}
+
+.bg-color-1{
+   background-color: var(--color-1);
+}
+.bg-color-2{
+   background-color: var(--color-2);
+}
+.bg-bodyjg{
+  background: var(--body);
+  background-size:cover;
+}
+.bg-bodypl{
+   background: var(--fondo);
+   background-size:cover;
+}
+.bg-bodysr{
+   background: var(--serie);
+   background-size:cover;
+}
+.bg-borial{
+  background: var(--fondo2);
+  background-size:cover;
+}
+.bg-cine{
+  background: var(--cardbody);
+  background-size:cover;
+}
+.bg-sr{
+  background: var(--card);
+  background-size:cover;
+}
+.font-cine{
+  font-family: var(--cardfonts);
+  font-size: 18px;
+}
+
+.font-cine2{
+  font-family: var(--cardfonts2);
+  font-size: 18px;
+}
+.navbar>a{
+  margin-right:-100px;
+  margin-left: 50px;
+}
+
+.navbar-nav>li{
+margin-left:10px;
+}
+.navbar-nav{
+  margin: 0 auto;
+}
+
+.card-columns .card{
+  background:rgba(0, 80, 161, 0.63);
+  color:white
+}
+.card-columns>.card>.card-body>button{
+  background: #330777;
+  color:white;
+}
+.card-columns>.card>.card-footer>button{
+  background: rgba(28, 51, 164, 0.72);
+  color:white;
+}

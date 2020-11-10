@@ -1,0 +1,121 @@
+:root{
+ /* Definir variables en CSS */
+ --color-fondo:#081624;
+}
+.bg-color1{
+ background: var(--color-fondo);
+}
+body{
+ cursor: url(http://ani.cursors-4u.net/movie/mov-2/mov159.cur), auto !important;
+ background: rgb(51,7,118);
+ background: linear-gradient(90deg, rgba(51,7,118,1) 0%, rgba(19,1,41,1) 64%);
+}
+
+
+#carousel-mod{
+ padding-top: 5px;
+ width:75%;
+ margin:0 auto;
+}
+
+.navbar>a{
+ margin-right:-100px;
+ margin-left: 50px;
+}
+
+.navbar-nav>li{
+margin-left:90px;
+}
+.navbar-nav{
+ margin: 0 auto;
+}
+.header-bar-warp {
+ background: #081624;
+}
+
+p{
+ color:#999;
+ line-height:25px;
+}
+h2,h3{
+ color:#fff;
+}
+h2{
+ font-size:18px;
+}
+.contenedor-cards{
+ background: rgb(51,7,118);
+ background: linear-gradient(90deg, rgba(51,7,118,1) 0%, rgba(19,1,41,1) 64%);
+}
+footer{
+ overflow: hidden;
+ position: absolute;
+ width: 100%;
+}
+.footer-top{
+ padding: 80px;
+}
+.segment-one h2{
+ text-transform: uppercase;
+}
+.segment-one h2:before{
+ content: '|';
+ color:#1c33a4;
+ padding-right: 10px;
+}
+.segment-two h2{
+text-transform: uppercase;
+}
+.segment-two h2:before{
+ content: '|';
+ color:#1c33a4;
+ padding-right: 10px;
+}
+.segment-two ul{
+ margin:0;
+ padding:0;
+ list-style: none;
+}
+.segment-two ul li{
+ border-bottom: 1px solid #1c33a4;
+ line-height: 40px;
+}
+.segment-two ul li{
+ color:white;
+ text-decoration: none;
+}
+.segment-three h2{
+ color:white;
+ text-transform: uppercase;
+}
+.segment-three h2:before{
+ content: '|';
+ color:#1c33a4;
+ padding-right: 10px;
+}
+.segment-three a{
+ background: #1c33a4;
+ width: 40px;
+ height: 40px;
+ display: inline-block;
+ border-radius: 50%;
+}
+.segment-three a:hover{
+ width: 50px;
+ height: 50px;
+ background: #330777;
+}
+.segment-three a ion-icon{
+ font-size: 20px;
+ color:white;
+ padding: 10px;
+}
+.segment-three a:hover ion-icon{
+ font-size: 30px;
+ color:white;
+ padding: 10px;
+}
+.footer-bottom-text{
+ text-align :center;
+ background: black;
+}
